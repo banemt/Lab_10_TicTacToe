@@ -66,6 +66,8 @@ public class TicTacToe {
                 System.out.println(9-moveCount + " possible moves remaining!");
             }
             playAgain = SafeInput.getYNConfirm(scanner, "Do you want to play again?");
+            moveCount = 0;
+            player = "X";
         } while (playAgain);
         scanner.close();
     }
