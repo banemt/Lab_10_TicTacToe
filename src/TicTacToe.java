@@ -12,7 +12,6 @@ Tic Tac Toe Outline:
 10. Close Do with Play Again prompt
 11. Helper methods for main code reference
  */
-
 import java.util.Scanner;
 
 public class TicTacToe {
